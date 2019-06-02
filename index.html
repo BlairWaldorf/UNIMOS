@@ -407,44 +407,20 @@
                                                         </div>
 
                                                             <label for="registeredSchools">Adicionar alunos a turma selecionada</label>
-                                                                <!-- <div class="card text-center col-md-9 mx-auto">
-                                                                    <div class="card-header"></div> 
-                                                                    <div class="card-body">
-                                                                        <select id="registeredStudents" class="selectpicker col-md-12" data-live-search="true" 
-                                                                        data-size="10" data-style="btn-outline-primary" title="Todos os Alunos" multiple>
-                                                                            <option>Jefferson Mendes</option>
-                                                                            <option>Berenice Foguetinha</option>
-                                                                            <option>Gustavo Palestino</option>
-                                                                            <option>Presto</option>
-                                                                        </select>
-                                                                        <br>
-                                                                        <div class="btn-group-horizontal justify-content-center" role="group" aria-label="Basic example">
-                                                                            <button type="button" id="btnRemove" onclick="removeOption()" class="btn btn-outline-secondary btn-group-sm btnAddRemove"><b>Remover</b></button>
-                                                                            <button type="button" id="btnAdd" onclick="addOption()" class="btn btn-outline-primary btn-group-sm btnAddRemove"><b>Adicionar</b></button>
-                                                                        </div>
-                                                                        <select id="newClass" class="selectpicker col-md-12" data-live-search="true" 
-                                                                        data-size="10" data-style="btn-outline-primary" title="Nova Turma" multiple>
-                                                                            <option>Hank</option>
-                                                                            <option>Presto</option>
-                                                                            <option>Mestre dos Magos</option>
-                                                                            <option>Uni</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div> -->
 
                                                             <div class="row mx-auto justify-content-center">
                                                                 <div class="col-md-4">
                                                                     <div class="container-fluid">
                                                                         <div class="card">
-                                                                            <div class="list-group list-group-flush" id="allStudents">
-                                                                                <a href="#" onclick="moveOnClick(this)" class="list-group-item list-group-item-action">Titus</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Titus</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Titus</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Titus</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                                                                            <div id="allStudents" class="list-group list-group-flush" id="allStudents">
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Titus</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Titus</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Titus</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Titus</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Vestibulum at eros</a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -453,9 +429,9 @@
                                                                 <div class="col-md-4">
                                                                     <div class="container-fluid">
                                                                         <div class="card">
-                                                                            <div class="list-group list-group-flush">
-                                                                                <a href="#" class="list-group-item list-group-item-action">FIRST LINK</a>
-                                                                                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                                                                            <div class="list-group list-group-flush" id="classes">
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">FIRST LINK</a>
+                                                                                <a href="#" onclick="toggleStudents(this)" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
