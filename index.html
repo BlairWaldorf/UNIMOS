@@ -276,7 +276,7 @@
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="nav-link" id="pills-schedule-tab" data-toggle="pill" href="#pills-schedule" 
-                                                        role="tab" aria-controls="pills-schedule" aria-selected="false" onclick="hideLabel('none')">Planejar Aulas</a>
+                                                        role="tab" aria-controls="pills-schedule" aria-selected="false" onclick="hideLabel('none')">Vincular Alunos</a>
                                                     </li>
                                                 </ul>
                                                 <div class="tab-content" id="pills-tabContent1">
@@ -889,7 +889,7 @@
                                                                 <input type="range" name="inputRange"value="5" id="inputRange" class="custom-range com-md-8 mx-auto" min="1" max="50" step="1" oninput="outputIdstudents.value = inputRange.value">
                                                             </form>
                                                             <br>
-
+                                                            
                                                             <!-- custos de aulas  -->
                                                             <form name="valores">
                                                                 <label for="">Custo: </label>
@@ -908,6 +908,23 @@
                                                                 </label>
                                                             </div>
                                                             <br>
+
+                                                            <!-- frequencia de aulas  -->
+                                                            <div style="margin-top: 15px;" class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                                <label class="btn btn-outline-primary btnRegister active">
+                                                                    <input type="radio" name="frequenciaAulas" id="frequenciaAulas" autocomplete="off" checked> Pontual
+                                                                </label>
+                                                                <label class="btn btn-outline-primary btnRegister active">
+                                                                    <input type="radio" name="cobrancaHora" id="cobrancaHora" autocomplete="off"> Semanal
+                                                                </label>
+                                                                <label class="btn btn-outline-primary btnRegister">
+                                                                    <input type="radio" name="cobrancaMes" id="cobrancaMes" autocomplete="off"> Quinzenal
+                                                                </label>
+                                                                <label class="btn btn-outline-primary btnRegister">
+                                                                    <input type="radio" name="cobrancaMes" id="cobrancaMes" autocomplete="off"> Mensal
+                                                                </label>
+                                                            </div>
+
                                                             <!-- disponibilidade -->
                                                             <table style="margin-top: 15px;" class="table table-hover col-md-8 mb-3 mx-auto text-center">
                                                                     <thead>
