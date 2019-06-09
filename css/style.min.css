@@ -668,3 +668,7 @@ img {
   overflow-y:scroll;
   -webkit-overflow-scrolling: touch;
 }
+
+.radiotext {
+  margin: 10px 10px 0px 0px;
+}
