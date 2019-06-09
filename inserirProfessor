@@ -4,13 +4,13 @@
      $nomep         = $_POST['nomep'];
      $nomepf        = $_POST['nomepf'];
      $cpfp          = $_POST['cpfp'];
-	  $rgp           = $_POST['rgp']; 
-	  $datap         = $_POST['datap'];
-	  $generop       = $_POST['generop'];
-	  $telefonep     = $_POST['telefonep'];
-	  $cnpjp         = $_POST['cnpjp'];
-	  $instrumentosp = $_POST['instrumentosp'];
-	  $descriptionp  = $_POST['descriptionp'];     
+     $rgp           = $_POST['rgp']; 
+     $datap         = $_POST['datap'];
+     $generop       = $_POST['generop'];
+     $telefonep     = $_POST['telefonep'];
+     $cnpjp         = $_POST['cnpjp'];
+     $instrumentosp = $_POST['instrumentosp'];
+     $descriptionp  = $_POST['descriptionp'];     
      $data    = date("Y-m-d"); 
      
     //parametros para o banco de dados!
