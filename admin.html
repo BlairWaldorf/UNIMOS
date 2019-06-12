@@ -99,24 +99,38 @@
                                     </div>
                                 </div>
                                 <div class="card">
-
                                     <div class="card-body">
                                         <h5 class="card-title">Ganhos</h5>
                                         <form>
-                                            <div class="form-group">
-                                                <label for="disabledTextInput">Valor máximo</label>
-                                                <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                            <div id="weekDays" class="">
+                                                <select title="Professor" class="selectpicker col-md-12 show-tick align-items-center" data-size="auto" data-style="btn-outline-primary" title="Professor" multiple>
+                                                    <option data-subtext="Moon">Sailor</option>
+                                                    <option data-subtext="Venus">Sailor</option>
+                                                </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="disabledTextInput">Valor mínimo</label>
-                                                <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                                <label for="disabledTextInput">Indíce de decréscimo</label>
+                                                <input type="text" id="indice-decrescimo" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="disabledTextInput">Escola</label>
+                                                <input type="text" id="escola" class="form-control" placeholder="%">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="disabledTextInput">Condominio</label>
+                                                <input type="text" id="condominio" class="form-control" placeholder="%">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="disabledTextInput">Empresa</label>
+                                                <input type="text" id="empresa" class="form-control" placeholder="%">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="disabledTextInput">Outros</label>
+                                                <input type="text" id="outros" class="form-control" placeholder="%">
                                             </div>
                                             <button type="submit" class="btn btn-primary">Salvar</button>
                                         </form>
                                     </div>
-
-
-
                                     <div class="card-footer">
                                         <small class="text-muted">Definir porcentagem que a UNIMUS irá
                                         reter da unidade de ensino de acordo com seu Tipo e do professor</small>
