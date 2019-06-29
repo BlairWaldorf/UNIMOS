@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Unimos</string>
+    <string name="connection_error">Oops, algo deu errado!  Verifique a conexão e tente novamente!</string>
+</resources>
